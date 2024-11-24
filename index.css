@@ -1,0 +1,72 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #6943FF;
+  color: white;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.value-box {
+  background-color: #6943FF;
+  text-align: center;
+  width: 117px;
+  height: 83px;
+  font-size: 58px;
+  font-weight: bold;
+  color: white;
+  box-sizing:border-box;
+
+}
+
+.convert-btn {
+  width:  117px;
+  height: 42px;
+  background-color: white;
+  color: #6f41e9;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.section {
+  background-color: #f1f3f5;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6f41e9;
+}
+
+.section p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+}
