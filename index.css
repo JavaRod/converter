@@ -75,16 +75,19 @@ body {
   padding: 20px;
   border-radius: 8px;
   margin: 20px 20px;
+  text-align: center;
 }
 
 .section h2 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   color: #6f41e9;
 }
 
 .section p {
   font-size: 16px;
+  font-weight: normal;
+  min-height: 2em;
   margin: 5px 0;
   color: #333;
 }
